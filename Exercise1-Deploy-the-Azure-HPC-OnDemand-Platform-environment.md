@@ -133,7 +133,11 @@ In this task you will connect to the Deployer VM thru Azure Bastion to monitor t
     Cloud-init v. 22.3.4-0ubuntu1~20.04.1 finished at Fri, 21 Oct 2022 14:06:09 +0000. Datasource DataSourceAzure [seed=/dev/sr0].  Up 2614.99 seconds
     ```
 
-    > **Note** : The Cloud Init step is taking about 40 minutes
+    > **Note** : The Cloud Init step is taking about 40 minutes.
+
+    > **Note**: 
+
+    ![alt](image/EX1-Task6-Step1.png)
 
 2. Confirm there are no errors in the playbooks execution by running this command
 
@@ -153,6 +157,8 @@ In this task you will connect to the Deployer VM thru Azure Bastion to monitor t
 2. Copy the **ondemand_fqdn** value and save it in a text editor like notepad as we will using thought out the lab.
 
    > **Note**: your ondemand_fqdn will look similar to as below.
+
+     ![alt](image/EX1-Task7-Step2.png)
 
     ```
     ondemand_fqdn : ondemandk6x4nkh3hhmsux.westeurope.cloudapp.azure.com
