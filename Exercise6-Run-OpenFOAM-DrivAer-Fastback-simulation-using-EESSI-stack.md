@@ -66,7 +66,11 @@ In this exercise you will run and analyze the DrivAer-Fastback CFD simulation wi
 
 1. On the lab computer, in the browser window, switch back to the **Azure HPC On-Demand Platform** portal, and then in the **Interactive Apps** section, select **Linux Desktop**.
 
+   ![alt](image/EX5-Task4-Step1.png)
+
 2. On the **Linux Desktop** launching page, from the **Session target** drop-down list, ensure that **With GPU - Small GPU node for single session** entry is selected. In the **Maximum duration of your remote session** field, enter **1**,  and then select **Launch**.
+
+   ![alt](image/EX2-Task5-Step12.png)
 
    > Note: This will begin compute node provisioning of the type you specified. This also creates a new job with its **Queued** status displaying on the same page.
 
@@ -74,9 +78,13 @@ In this exercise you will run and analyze the DrivAer-Fastback CFD simulation wi
 
 4. Adjust **Compression** and **Image quality** according to your preferences, and then select **Launch Linux Desktop**.
 
+   ![alt](image/EX2-Task5-Step17.png)
+
    > Note: This will open another browser tab displaying the Linux Desktop session.
 
-5. Within the Linux Desktop session, start **Terminal Emulator**.
+5. Within the Linux Desktop session, Click on **Applications** and open a **Terminal Emulator**.
+
+      ![alt](image/EX2-Task5-Step18.png)
 
 6. Install the **ParaView** viewer:
 
@@ -95,7 +103,7 @@ In this exercise you will run and analyze the DrivAer-Fastback CFD simulation wi
    vglrun ./ParaView-5.10.1-MPI-Linux-Python3.9-x86_64/bin/paraview
    ```
 
-2. Within **ParaView** open the case `~/drivaerFastback/case.foam`
+2. Within **ParaView** open the case `/drivaerFastback/case.foam`
 
 3. When the model is loaded, you can load the car geometry as follows:
    - In the bottom left pane, in the "Mesh Regions" list, unselect "internalMesh" and select the    following fields:

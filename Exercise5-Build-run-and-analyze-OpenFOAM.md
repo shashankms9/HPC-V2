@@ -90,7 +90,7 @@ Here we ask for 2 node from the node array **hb120v2** using 120 cores on each, 
 
 1. On the lab computer, in the browser window, switch back to the **Azure HPC On-Demand Platform** portal, and then in the **Interactive Apps** section, select **Linux Desktop**.
 
-   ![alt](image/EX2-Task5-Step2.png)
+   ![alt](image/EX5-Task4-Step1.png)
 
 2. On the **Linux Desktop** launching page, from the **Session target** drop-down list, ensure that **With GPU - Small GPU node for single session** entry is selected. In the **Maximum duration of your remote session** field, enter **1**,  and then select **Launch**.
 
@@ -110,7 +110,7 @@ Here we ask for 2 node from the node array **hb120v2** using 120 cores on each, 
 
       ![alt](image/EX2-Task5-Step18.png)
 
-6. Install the **ParaView** viewer
+6. Install the **ParaView** viewer:
 
    ```bash
    cd /anfhome/clusteradmin
