@@ -90,11 +90,11 @@ Here we ask for 2 node from the node array **hb120v2** using 120 cores on each, 
 
 1. On the lab computer, in the browser window, switch back to the **Azure HPC On-Demand Platform** portal, and then in the **Interactive Apps** section, select **Linux Desktop**.
 
-   ![alt](../EX2-Task5-Step2.png)
+   ![alt](image/EX2-Task5-Step2.png)
 
 2. On the **Linux Desktop** launching page, from the **Session target** drop-down list, ensure that **With GPU - Small GPU node for single session** entry is selected. In the **Maximum duration of your remote session** field, enter **1**,  and then select **Launch**.
 
-   ![alt](../EX2-Task5-Step12.png)
+   ![alt](image/EX2-Task5-Step12.png)
 
       > Note: This will begin compute node provisioning of the type you specified. This also creates a new job with its **Queued** status displaying on the same page.
 
@@ -102,13 +102,13 @@ Here we ask for 2 node from the node array **hb120v2** using 120 cores on each, 
 
 4. Adjust **Compression** and **Image quality** according to your preferences, and then select **Launch Linux Desktop**.
 
-   ![alt](../EX2-Task5-Step23.png)
+   ![alt](image/EX2-Task5-Step17.png)
    
    > Note: This will open another browser tab displaying the Linux Desktop session.
 
-5. Within the Linux Desktop session, start **Terminal Emulator**.
+5. Within the Linux Desktop session, Click on **Applications** and open a **Terminal Emulator**.
 
-      ![alt](../EX2-Task5-Step24.png)
+      ![alt](image/EX2-Task5-Step18.png)
 
 6. Install the **ParaView** viewer
 
@@ -125,20 +125,21 @@ Here we ask for 2 node from the node array **hb120v2** using 120 cores on each, 
    vglrun ./ParaView-5.10.1-MPI-Linux-Python3.9-x86_64/bin/paraview
    ```
 
-8. Open the model
+8. Open the model, Within **ParaView** open the case `motorBike/case.foam`
 
-   Within **ParaView** open the case `motorBike/case.foam`
-
-   When the model is loaded, you can view the geometry like this:
+9. When the model is loaded, you can view the geometry like this:
    - In the bottom left pane, in the "Mesh Regions" list, unselect "internalMesh" and select "group/motorBikeGroup".
    - Click "Apply" above the list.
    - You should now see the model geometry, and you can move/rotate/zoom using the mouse.
 
-      ![alt](../EX5-Task4-step8a.png)
+      ![alt](image/EX5-Task4-step8a.png)
 
 
-   Next, you can visualize the simulation results.
-   - Click the "Play" button on the toolbar at the top of the window to advance to the end of the simulation.
-   - On the Active Variables Control toolbar you will find a drop down box where you can select variables. For example, select "p" for pressure.
+10. Next, you can visualize the simulation results.
 
-      ![alt](../EX5-Task4-step8b.png)
+      - Click the "Play" button on the toolbar at the top of the window to advance to the end of the simulation.
+      - On the Active Variables Control toolbar you will find a drop down box where you can select variables. For example, select "p" for pressure.
+
+        ![alt](image/EX5-Task4-step8b.png)
+
+11. Click the **Next** button located in the bottom right corner of this lab guide to continue with the next exercise.   

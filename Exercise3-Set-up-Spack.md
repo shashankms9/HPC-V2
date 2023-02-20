@@ -10,6 +10,8 @@ In this exercise, you will install and configure Spack from Code Server, as docu
 
 2. Select the **Interactive Apps** menu, and from the drop-down menu, select **Code Server**.
 
+   ![alt](image/EX2-Task5-Step2.png)
+
    > Note: This will open another browser tab displaying the **Code Server** launching page.
 
 3. On the **Code Server** launching page, in the **Maximum duration of your remote session** field, enter **3**. In the **Slot Type** text box, enter **hb120v2**, and then select **Launch**.

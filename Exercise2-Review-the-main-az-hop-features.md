@@ -85,6 +85,8 @@ In this exercise, you will review the main features of the Azure HPC OnDemand Pl
 
 5. On the lab computer, in the browser window displaying the Azure HPC On-Demand Platform portal, select the **Azure HPC On-Demand Platform** header. Select the **Monitoring** menu, and from the drop-down list, select **Azure CycleCloud**.
 
+      ![alt](image/EX1-Task8-Step2.png)
+
 6. In the **Azure CycleCloud for Azure HPC On-Demand Platform** portal, monitor the status of the cluster and note that the number of nodes increased to **2**, which initially are listed in the **acquiring** state. This can takes a minute to come.
 
       ![alt](image/EX2-Task3-Step6.png)
@@ -280,13 +282,13 @@ In this exercise, you will review the main features of the Azure HPC OnDemand Pl
       - In the **Maximum duration of your remote session** field, enter `1 (3)`
       - Select `Launch (4)`.
 
+        ![alt](image/EX2-Task5-Step13.png)
+
       > **Note**: The ability to extend the time you specify is not supported. After the time you specified passes, the session terminates. However, you can choose to terminate the session early.
 
       > **Note**: This will initiate the provisioning of a compute node of the type you specified. Note that this creates a new job and the **Queued** status for this job is displayed on the same page.
 
 14. Switch to the **Azure CycleCloud for Azure HPC On-Demand Platform** portal and monitor the progress of the **viz** and **viz3d** node provisioning.
-
-      ![alt](image/EX2-Task5-Step13.png)
 
       > **Note**: Wait until the status of the node changes to **Ready**. This should take about 10 minutes.
 
