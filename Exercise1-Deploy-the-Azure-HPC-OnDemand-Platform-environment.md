@@ -178,7 +178,7 @@ In this task you will connect to the Deployer VM thru Azure Bastion to monitor t
 
     ![alt](image/EX1-Task8-Step1.png)
 
-   > Note: You'll be presented with the **Azure HPC On-Demand Platform** dashboard. Review its interface, starting with the top-level menu, which provides access to **Apps**, **Files**, **Jobs**, **Clusters**, **Interactive Apps**, **Monitoring**, and **My Interactive Sessions** menu items.
+   > **Note**: You'll be presented with the **Azure HPC On-Demand Platform** dashboard. Review its interface, starting with the top-level menu, which provides access to **Apps**, **Files**, **Jobs**, **Clusters**, **Interactive Apps**, **Monitoring**, and **My Interactive Sessions** menu items.
 
 2. In the **Monitoring** menu, select **Azure CycleCloud**.
 
