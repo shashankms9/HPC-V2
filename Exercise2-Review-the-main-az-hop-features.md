@@ -286,7 +286,7 @@ In this exercise, you will review the main features of the Azure HPC OnDemand Pl
 
 14. Switch to the **Azure CycleCloud for Azure HPC On-Demand Platform** portal and monitor the progress of the **viz** and **viz3d** node provisioning.
 
-      ![alt](image/EX2-Task5-Step14.png)
+      ![alt](image/EX2-Task5-Step13.png)
 
       > **Note**: Wait until the status of the node changes to **Ready**. This should take about 10 minutes.
 
@@ -296,17 +296,17 @@ In this exercise, you will review the main features of the Azure HPC OnDemand Pl
 
 16. Use the **Delete** button to delete one of the **Linux Desktop** session by selecting **Confirm** when prompted.
 
-      ![alt](image/EX2-Task5-Step17.png)
+      ![alt](image/EX2-Task5-Step16.png)
 
 17. On the session with hosts named `viz3d-1`, adjust **Compression** and **Image quality** according to your preferences, and then select **Launch Linux Desktop**.
 
-      ![alt](image/EX2-Task5-Step23.png)
+      ![alt](image/EX2-Task5-Step17.png)
 
       > **Note**: This will open another browser tab displaying the Linux Desktop VNC session.
 
 18. Click on **Applications** and open a **Terminal Emulator**. 
 
-      ![alt](image/EX2-Task5-Step24.png)
+      ![alt](image/EX2-Task5-Step18.png)
 
 19. Once the teminal is open, run the below command to validate that GPU is enabled
 
@@ -314,18 +314,18 @@ In this exercise, you will review the main features of the Azure HPC OnDemand Pl
       nvidia-smi
       ```
 
-      ![alt](image/EX2-Task5-Step25.png)
+      ![alt](image/EX2-Task5-Step19.png)
 
 19. In the open terminal run the below command and observed the performances. 
 
       ```bash
       /opt/VirtualGL/bin/glxspheres64
       ```
-      ![alt](image/EX2-Task5-Step26.png)
+      ![alt](image/EX2-Task5-Step20.png)
 
 20. This is running witout GPU acceleration and should deliver about **40 frames/sec**.
 
-      ![alt](image/EX2-Task5-Step27.png)
+      ![alt](image/EX2-Task5-Step21.png)
 
 21. Close the **GLX Spheres** window and rerun it by prefixing the command with vglrun to offload Opengl to the GPU. 
 
@@ -333,11 +333,11 @@ In this exercise, you will review the main features of the Azure HPC OnDemand Pl
       vglrun /opt/VirtualGL/bin/glxspheres64
       ```
 
-      ![alt](image/EX2-Task5-Step28.png)
+      ![alt](image/EX2-Task5-Step22.png)
 
 22. Performances should be increased to about **400 frames/sec** depending on your screen size, quality and compression options.
 
-      ![alt](image/EX2-Task5-Step29.png)
+      ![alt](image/EX2-Task5-Step23.png)
 
 23. Start a new terminal and launch `nvidia-smi` to check the GPU usage which should be about **35%**.
 

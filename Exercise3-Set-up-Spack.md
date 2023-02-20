@@ -14,13 +14,13 @@ In this exercise, you will install and configure Spack from Code Server, as docu
 
 3. On the **Code Server** launching page, in the **Maximum duration of your remote session** field, enter **3**. In the **Slot Type** text box, enter **hb120v2**, and then select **Launch**.
 
-   ![alt](EX3-Task1-step3)
+   ![alt](image/EX3-Task1-step3.png)
 
    > Note: This will initiate the provisioning of a compute node of the type you specified. Note that this creates a new job and the **Queued** status for this job is displayed on the same page.
 
 4. Switch to the **Azure CycleCloud for Azure HPC On-Demand Platform** portal and monitor the progress of the **hb120v2** node provisioning.
 
-   ![alt](EX3-Task1-step4)
+   ![alt](image/EX3-Task1-step4.png)
 
    > Note: Wait until the node status changes to **Ready**. This should take about 5 minutes.
 
@@ -28,13 +28,13 @@ In this exercise, you will install and configure Spack from Code Server, as docu
 
    > Note: This will open another browser tab displaying the Code Server interface.
 
-   ![alt](EX3-Task1-step5)
+   ![alt](image/EX3-Task1-step5.png)
 
 6. Review the interface, and then close the **Welcome** tab.
 
 7. Select the **Application** menu, from the drop-down menu select **Terminal**, and then from the sub-menu that opens, select **New Terminal**.
 
-   ![alt](EX3-Task1-step7)
+   ![alt](image/EX3-Task1-step7.png)
 
 8. In the **Terminal** pane, at the **[clusteradmin@hb120v2-1 ~]$** prompt, run the following command to clone the azurehpc repo and use the azhop/spack branch:
 
@@ -43,7 +43,7 @@ In this exercise, you will install and configure Spack from Code Server, as docu
    git clone https://github.com/Azure/azurehpc.git
    ```
 
-   ![alt](EX3-Task1-step8)
+   ![alt](image/EX3-Task1-step8.png)
 
 ### Task 2: Install Spack
 

@@ -116,7 +116,7 @@ In this task you will connect to the Deployer VM thru Azure Bastion to monitor t
   
         > **Note**: You may have to disable the popup blocker as it may block the connection window.
 
-         ![alt](image/EX1-Task5-Step5note.png)
+        ![alt](image/EX1-Task5-Step5note.png)
 
 ### Task 6 : Monitor the installation progress
 

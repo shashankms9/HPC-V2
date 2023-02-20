@@ -16,6 +16,8 @@ Duration: 30 minutes
    module avail
    ```
 
+   ![alt](image/EX4-Task1-step2.png)
+
     > Note: The output should resemble the following listing:
     
 3. Install OSU benchmarks with Spack and OpenMPI
@@ -23,6 +25,8 @@ Duration: 30 minutes
    ```bash
    spack install osu-micro-benchmarks^openmpi
    ```
+
+   ![alt](image/EX4-Task1-step3.png)
 
 This will download the source packages and build them in your environment.
 
@@ -74,4 +78,10 @@ This will download the source packages and build them in your environment.
 
 3. Check the jobs statuses within the terminal or thru the web UI as well as the node provisioning state in the CycleCloud portal.
 
+    ![alt](image/EX4-Task3-step3.png)
+
 4. Review the results of the jobs in files names **LAT.o??** and **BW.o??** at the root of the home directory
+
+    ![alt](image/EX4-Task3-step4.png)
+
+ 5. Click the **Next** button located in the bottom right corner of this lab guide to continue with the next exercise.   
