@@ -133,7 +133,7 @@ In this task you will connect to the Deployer VM thru Azure Bastion to monitor t
     Cloud-init v. 22.3.4-0ubuntu1~20.04.1 finished at Fri, 21 Oct 2022 14:06:09 +0000. Datasource DataSourceAzure [seed=/dev/sr0].  Up 2614.99 seconds
     ```
 
-    > Note : The Cloud Init step is taking about 40 minutes
+    > **Note** : The Cloud Init step is taking about 40 minutes
 
 2. Confirm there are no errors in the playbooks execution by running this command
 
@@ -164,7 +164,7 @@ In this task you will connect to the Deployer VM thru Azure Bastion to monitor t
    ./bin/get_secret clusteradmin
    ```
 
-    > Note: Record these values. You'll need them throughout the remainder of this lab.
+    > **Note**: Record these values. You'll need them throughout the remainder of this lab.
 
 ### Task 8 : Access the `Azure HPC On-Demand Platform` dashboard
 
@@ -182,7 +182,7 @@ In this task you will connect to the Deployer VM thru Azure Bastion to monitor t
 
     ![alt](image/EX1-Task8-Step3.png)
 
-   > Note: This prompt reflects the OnDemand component architecture, which the Azure HPC OnDemand Platform solution relies on to implement its portal. The shared frontend creates Per User NGINX (PUN) processes to provide connectivity to such components as **Azure CycleCloud** and **Grafana**.
+   > **Note**: This prompt reflects the OnDemand component architecture, which the Azure HPC OnDemand Platform solution relies on to implement its portal. The shared frontend creates Per User NGINX (PUN) processes to provide connectivity to such components as **Azure CycleCloud** and **Grafana**.
 
 4. On the **Azure CycleCloud for Azure HPC On-Demand Platform** page, note the presence of a configuration of a cluster named **pbs1**.
 

@@ -12,23 +12,23 @@ In this exercise, you will install and configure Spack from Code Server, as docu
 
    ![alt](image/EX2-Task5-Step2.png)
 
-   > Note: This will open another browser tab displaying the **Code Server** launching page.
+   > **Note**: This will open another browser tab displaying the **Code Server** launching page.
 
 3. On the **Code Server** launching page, in the **Maximum duration of your remote session** field, enter **3**. In the **Slot Type** text box, enter **hb120v2**, and then select **Launch**.
 
    ![alt](image/EX3-Task1-step3.png)
 
-   > Note: This will initiate the provisioning of a compute node of the type you specified. Note that this creates a new job and the **Queued** status for this job is displayed on the same page.
+   > **Note**: This will initiate the provisioning of a compute node of the type you specified. Note that this creates a new job and the **Queued** status for this job is displayed on the same page.
 
 4. Switch to the **Azure CycleCloud for Azure HPC On-Demand Platform** portal and monitor the progress of the **hb120v2** node provisioning.
 
    ![alt](image/EX3-Task1-step4.png)
 
-   > Note: Wait until the node status changes to **Ready**. This should take about 5 minutes.
+   > **Note**: Wait until the node status changes to **Ready**. This should take about 5 minutes.
 
 5. Switch back to the **Code Server** launching page, verify that the corresponding job's status has changed to **Running**, and then select **Connect to VS Code**.
 
-   > Note: This will open another browser tab displaying the Code Server interface.
+   > **Note**: This will open another browser tab displaying the Code Server interface.
 
    ![alt](image/EX3-Task1-step5.png)
 
@@ -56,7 +56,7 @@ In this exercise, you will install and configure Spack from Code Server, as docu
    ~/azurehpc/experimental/azhop/spack/configure.sh
    ```
 
-   > Note: The output should resemble the following listing:
+   > **Note**: The output should resemble the following listing:
 
    ```bash
    [clusteradmin@hb120v2-1 ~]$ ~/azurehpc/experimental/azhop/spack/install.sh
@@ -100,7 +100,7 @@ In this exercise, you will install and configure Spack from Code Server, as docu
    spack compilers
    ```
 
-   > Note: The output should resemble the following listing:
+   > **Note**: The output should resemble the following listing:
 
    ```bash
    ==> Available compilers
@@ -108,6 +108,6 @@ In this exercise, you will install and configure Spack from Code Server, as docu
    gcc@9.2.0
    ```
 
-   > Note: Verify that gcc 9.2 is referenced in the output.
+   > **Note**: Verify that gcc 9.2 is referenced in the output.
 
 3. Click the **Next** button located in the bottom right corner of this lab guide to continue with the next exercise.

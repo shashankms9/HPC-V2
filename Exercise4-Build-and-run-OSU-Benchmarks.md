@@ -18,7 +18,7 @@ Duration: 30 minutes
 
    ![alt](image/EX4-Task1-step2.png)
 
-    > Note: The output should resemble the following listing:
+    > **Note**: The output should resemble the following listing:
     
 3. Install OSU benchmarks with Spack and OpenMPI
 

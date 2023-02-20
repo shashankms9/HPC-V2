@@ -6,9 +6,9 @@ In this exercise, you will review the main features of the Azure HPC OnDemand Pl
 
 ### Task 1: Using file explorer
 
-> Note: For more information regarding this topic, refer to [https://azure.github.io/az-hop/user_guide/files.html](https://azure.github.io/az-hop/user_guide/files.html)
+> **Note**: For more information regarding this topic, refer to [https://azure.github.io/az-hop/user_guide/files.html](https://azure.github.io/az-hop/user_guide/files.html)
 
-> Note: You can access your home directory files directly from the OnDemand interface.
+> **Note**: You can access your home directory files directly from the OnDemand interface.
 
 1. On the lab computer, in the browser window, in the **Azure HPC On-Demand Platform** portal, select the **Files** menu. Then, from the drop-down menu, select **Home Directory**.
 
@@ -22,13 +22,13 @@ In this exercise, you will review the main features of the Azure HPC OnDemand Pl
 
 ### Task 2: Using shell access
 
-> Note: For more information regarding this topic, refer to [https://azure.github.io/az-hop/user_guide/clusters.html](https://azure.github.io/az-hop/user_guide/clusters.html)
+> **Note**: For more information regarding this topic, refer to [https://azure.github.io/az-hop/user_guide/clusters.html](https://azure.github.io/az-hop/user_guide/clusters.html)
 
 1. In the **Azure HPC On-Demand Platform** portal, select the **Clusters** menu, and then from the drop-down menu, select **AZHOP - Cluster Shell Access**.
 
       ![alt](image/EX2-Task1-Step1.png)
 
-   > Note: This will open another browser tab displaying a shell session to the cluster.
+   > **Note**: This will open another browser tab displaying a shell session to the cluster.
 
 2. In the shell session, run the following command to submit a simple test job:
 
@@ -36,7 +36,7 @@ In this exercise, you will review the main features of the Azure HPC OnDemand Pl
    qsub -l select=1:slot_type=execute -- /usr/bin/bash -c 'sleep 60'
    ```
 
-   > Note: Be careful when pasting the commands to make sure the exacts characters are used, especially for hyphen.
+   > **Note**: Be careful when pasting the commands to make sure the exacts characters are used, especially for hyphen.
 
 3. In the shell session, run the following command to display the status of the submitted job:
 
@@ -44,7 +44,7 @@ In this exercise, you will review the main features of the Azure HPC OnDemand Pl
    qstat -anw1
     ```
     
-   > Note: The output should resemble the following listing:
+   > **Note**: The output should resemble the following listing:
 
     ```
     scheduler:
@@ -55,7 +55,7 @@ In this exercise, you will review the main features of the Azure HPC OnDemand Pl
    [clusteradmin@ondemand ~]$
    ```
 
-   > Note: Examine the output of the command and verify that the submitted job is in the queue.
+   > **Note**: Examine the output of the command and verify that the submitted job is in the queue.
 
 4. Switch to the browser tab with the **Azure CycleCloud for Azure HPC On-Demand Platform** page. After some time (less than a minute), a new **execute** instance is created.
 
@@ -71,17 +71,17 @@ In this exercise, you will review the main features of the Azure HPC OnDemand Pl
 
       ![alt](image/EX2-Task3-Step2.png)
 
-   > Note: This will automatically create a job named **(default) Sample Sequential Job** that targets the **execute** CycleCloud array. To identify the content of the job script, ensure that the newly created job is selected, and then review the **Script contents** pane.
+   > **Note**: This will automatically create a job named **(default) Sample Sequential Job** that targets the **execute** CycleCloud array. To identify the content of the job script, ensure that the newly created job is selected, and then review the **Script contents** pane.
 
 3. Repeat the previous step twice to create two additional jobs based on the default template.
 
-   > Note: The default job template contains a trivial script that runs `echo "Hello World"`.
+   > **Note**: The default job template contains a trivial script that runs `echo "Hello World"`.
 
 4. Note that all three jobs are currently in the **Not Submitted** state. To submit them, select each one of them, and then select **Submit**.
 
       ![alt](image/EX2-Task3-Step4.png)
 
-   > Note: The status of the jobs should change to **Queued**.
+   > **Note**: The status of the jobs should change to **Queued**.
 
 5. On the lab computer, in the browser window displaying the Azure HPC On-Demand Platform portal, select the **Azure HPC On-Demand Platform** header. Select the **Monitoring** menu, and from the drop-down list, select **Azure CycleCloud**.
 
@@ -117,7 +117,7 @@ In this exercise, you will review the main features of the Azure HPC OnDemand Pl
 
 13. Navigate to the **Azure CycleCloud for Azure HPC On-Demand Platform** portal, and then monitor the progress of node provisioning.
 
-      > Note: Wait until the status of nodes changes to **Ready**. This should take about 5 minutes.
+      > **Note**: Wait until the status of nodes changes to **Ready**. This should take about 5 minutes.
 
 14. After the nodes status changes to **Ready**, switch to the **Active jobs** page.
 
@@ -125,7 +125,7 @@ In this exercise, you will review the main features of the Azure HPC OnDemand Pl
 
       ![alt](image/EX2-Task3-Step15.png)
 
-      > Note: If the jobs are still listed as **Queued**, wait for a few more minutes, and then refresh the page again.
+      > **Note**: If the jobs are still listed as **Queued**, wait for a few more minutes, and then refresh the page again.
 
 16. Navigate back to the **Job Composer** page, and note that all jobs are now completed.
 
@@ -221,7 +221,7 @@ In this exercise, you will review the main features of the Azure HPC OnDemand Pl
 
 ### Task 5: Running interactive apps using Code Server and Linux Desktop
 
-> Note: For more information regarding this topic, refer to [https://azure.github.io/az-hop/user_guide/code_server.html](https://azure.github.io/az-hop/user_guide/code_server.html) and [https://azure.github.io/az-hop/user_guide/remote_desktop.html](https://azure.github.io/az-hop/user_guide/remote_desktop.html)
+> **Note**: For more information regarding this topic, refer to [https://azure.github.io/az-hop/user_guide/code_server.html](https://azure.github.io/az-hop/user_guide/code_server.html) and [https://azure.github.io/az-hop/user_guide/remote_desktop.html](https://azure.github.io/az-hop/user_guide/remote_desktop.html)
 
 1. On the lab computer, in the browser window, switch to the tab displaying the **Azure HPC On-Demand Platform** portal.
 

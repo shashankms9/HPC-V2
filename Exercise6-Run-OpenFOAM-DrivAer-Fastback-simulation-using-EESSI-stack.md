@@ -72,7 +72,7 @@ In this exercise you will run and analyze the DrivAer-Fastback CFD simulation wi
 
    ![alt](image/EX2-Task5-Step12.png)
 
-   > Note: This will begin compute node provisioning of the type you specified. This also creates a new job with its **Queued** status displaying on the same page.
+   > **Note**: This will begin compute node provisioning of the type you specified. This also creates a new job with its **Queued** status displaying on the same page.
 
 3. Switch back to the **Linux Desktop** launching page, and then verify that the corresponding job's status has changed to **Running**.
 
@@ -80,7 +80,7 @@ In this exercise you will run and analyze the DrivAer-Fastback CFD simulation wi
 
    ![alt](image/EX2-Task5-Step17.png)
 
-   > Note: This will open another browser tab displaying the Linux Desktop session.
+   > **Note**: This will open another browser tab displaying the Linux Desktop session.
 
 5. Within the Linux Desktop session, Click on **Applications** and open a **Terminal Emulator**.
 
