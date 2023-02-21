@@ -135,7 +135,7 @@ In this task you will connect to the Deployer VM thru Azure Bastion to monitor t
 
     > **Note** : The Cloud Init step is taking about 40 minutes.
 
-    > **Note**: 
+    > **Note**: If installation of telegraf got failed, click on **ctr + c**, and continue with the next task as it will not effect the flow of the lab.
 
     ![alt](image/EX1-Task6-Step1.png)
 

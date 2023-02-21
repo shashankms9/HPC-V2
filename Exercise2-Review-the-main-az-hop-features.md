@@ -12,6 +12,8 @@ In this exercise, you will review the main features of the Azure HPC OnDemand Pl
 
 1. On the lab computer, in the browser window, in the **Azure HPC On-Demand Platform** portal, select the **Files** menu. Then, from the drop-down menu, select **Home Directory**.
 
+      ![alt](image/EX2-Task1-Step1.png)
+
 2. On the **Home Directory** page, review its interface, including the options to:
 
    - Create directories and files.
@@ -19,6 +21,8 @@ In this exercise, you will review the main features of the Azure HPC OnDemand Pl
    - Perform copy and move operations.
    - Delete directories and files.
    - Open the terminal window in the current file system location.
+
+   ![alt](image/EX2-Task1-Step2.png)
 
 ### Task 2: Using shell access
 
@@ -36,6 +40,9 @@ In this exercise, you will review the main features of the Azure HPC OnDemand Pl
    qsub -l select=1:slot_type=execute -- /usr/bin/bash -c 'sleep 60'
    ```
 
+
+   ![alt](image/EX2-Task2-Step2.png)
+
    > **Note**: Be careful when pasting the commands to make sure the exacts characters are used, especially for hyphen.
 
 3. In the shell session, run the following command to display the status of the submitted job:
@@ -43,9 +50,11 @@ In this exercise, you will review the main features of the Azure HPC OnDemand Pl
    ```bash
    qstat -anw1
     ```
-    
-   > **Note**: The output should resemble the following listing:
 
+      > **Note**: The output should resemble the following listing:
+
+    ![alt](image/EX2-Task2-Step3.png)
+    
     ```
     scheduler:
                                                                                                       Req'd  Req'd   Elap
