@@ -56,6 +56,24 @@ In this task, you will prepare the `build.yml` file used by the deploy helper sc
 
    ![alt](image/EX1-Task3-Step2.png)
 
+4. Fix the install.sh script in the `deploy/resources` folder, change line 14 of the `install.sh` script from.  
+
+    ```bash
+    cd resources
+    vi install.sh
+    ```
+
+    ```bash
+    git clone --recursive https://github.com/Azure/az-hop.git -b v1.0.29
+    ```
+
+     ![alt](image/EX1-Task3-step4)
+
+5. Then press **_ESC_**, write **_:wq_** to save your changes and close the file.
+    
+    >**Note**: If **_ESC_** doesn't work press `ctrl+[` and then write **_:wq_** to save your changes and close the file.     
+    
+
 ### Task 4 : Deploy the environment
 
 1. Retrieve the azure location name in which you will deploy this environment by running this command.
