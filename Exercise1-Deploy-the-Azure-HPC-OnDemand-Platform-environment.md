@@ -112,7 +112,7 @@ In this task you will connect to the Deployer VM thru Azure Bastion to monitor t
 
     ![alt](image/EX1-Task5-Step2a.png)
 
-3. select the resource group you have created with the name `azhop_quickstart`.
+3. Select the resource group you have created with the name `azhop_quickstart`.
 
     ![alt](image/EX1-Task5-Step2b.png)
 
