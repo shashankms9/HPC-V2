@@ -37,7 +37,7 @@ In this exercise, you will use Azure Cloud Shell to set up an `az-hop` environme
 
 In this task, you will prepare the `build.yml` file used by the deploy helper script in order to build the `az-hop` environment.
 
-1. Change directory into the deploy folder and copy the build template file
+1. Change directory into the deploy folder and copy the build template file.
 
    ```bash
    cd az-hop
@@ -48,7 +48,8 @@ In this task, you will prepare the `build.yml` file used by the deploy helper sc
 
     > **Note** : If your subscription policy requires you to run without public IP then update your `build.yml` configuration file and set `vms.ondemand.pip` to `false`.
 
-3. Run the pre-requisites script to install any missing components
+3. Run the pre-requisites script to install any missing components.
+
    ```bash
    cd deploy
    ./pre-reqs.sh
@@ -56,18 +57,20 @@ In this task, you will prepare the `build.yml` file used by the deploy helper sc
 
    ![alt](image/EX1-Task3-Step2.png)
 
-4. Fix the install.sh script in the `deploy/resources` folder, change line 14 of the `install.sh` script from.  
+4. Fix the install.sh script in the `deploy/resources` folder.  
 
     ```bash
     cd resources
     vi install.sh
     ```
 
+5. Change line 14 of the `install.sh` script from `git clone --recursive https://github.com/Azure/az-hop.git` to below line.
+
     ```bash
     git clone --recursive https://github.com/Azure/az-hop.git -b v1.0.29
     ```
 
-     ![alt](image/EX1-Task3-step4)
+    ![alt](image/EX1-Task3-Step4.png)
 
 5. Then press **_ESC_**, write **_:wq_** to save your changes and close the file.
     
