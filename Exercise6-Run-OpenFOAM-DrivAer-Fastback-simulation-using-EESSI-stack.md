@@ -8,7 +8,6 @@ In this exercise you will run and analyze the DrivAer-Fastback CFD simulation wi
 1. On the lab computer, in the browser window displaying the Code Server, in the **Terminal** pane, at the **[clusteradmin@hb120v2-1 clusteradmin]$**  prompt, run the following command to Clone the OpenFOAM-9 repository from GitHub:
 
    ```bash
-   cd /anfhome/clusteradmin
    git clone https://github.com/OpenFOAM/OpenFOAM-9.git
    ```
 
@@ -89,7 +88,6 @@ In this exercise you will run and analyze the DrivAer-Fastback CFD simulation wi
 6. Install the **ParaView** viewer:
 
    ```bash
-   cd /anfhome/clusteradmin
    wget "https://www.paraview.org/paraview-downloads/download.php?submit=Download&version=v5.10&type=binary&os=Linux&downloadFile=ParaView-5.10.1-MPI-Linux-Python3.9-x86_64.tar.gz" -O ParaView-5.10.1-MPI-Linux-Python3.9-x86_64.tar.gz
    tar xvf ParaView-5.10.1-MPI-Linux-Python3.9-x86_64.tar.gz
    ```

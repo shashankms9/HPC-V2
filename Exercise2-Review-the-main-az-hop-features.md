@@ -30,7 +30,7 @@ In this exercise, you will review the main features of the Azure HPC OnDemand Pl
 
 1. In the **Azure HPC On-Demand Platform** portal, select the **Clusters** menu, and then from the drop-down menu, select **AZHOP - Cluster Shell Access**.
 
-      ![alt](image/EX2-Task1-Step1.png)
+      ![alt](image/EX2-Task2-Step1.png)
 
    > **Note**: This will open another browser tab displaying a shell session to the cluster.
 
@@ -293,9 +293,9 @@ In this exercise, you will review the main features of the Azure HPC OnDemand Pl
 
         ![alt](image/EX2-Task5-Step13.png)
 
-      > **Note**: The ability to extend the time you specify is not supported. After the time you specified passes, the session terminates. However, you can choose to terminate the session early.
+         > **Note**: The ability to extend the time you specify is not supported. After the time you specified passes, the session terminates. However, you can choose to terminate the session early.
 
-      > **Note**: This will initiate the provisioning of a compute node of the type you specified. Note that this creates a new job and the **Queued** status for this job is displayed on the same page.
+        > **Note**: This will initiate the provisioning of a compute node of the type you specified. Note that this creates a new job and the **Queued** status for this job is displayed on the same page.
 
 14. Switch to the **Azure CycleCloud for Azure HPC On-Demand Platform** portal and monitor the progress of the **viz** and **viz3d** node provisioning.
 
@@ -305,7 +305,7 @@ In this exercise, you will review the main features of the Azure HPC OnDemand Pl
 
 15. Switch back to the **My Interactive Sessions** page, and then verify that the corresponding job's status has changed to **Running**.
 
-16. Use the **Delete** button to delete one of the **Linux Desktop** session by selecting **Confirm** when prompted.
+16. On the session with hosts named `viz-1`, use the **Delete** button to delete one of the **Linux Desktop** session by selecting **Confirm** when prompted.
 
       ![alt](image/EX2-Task5-Step16.png)
 

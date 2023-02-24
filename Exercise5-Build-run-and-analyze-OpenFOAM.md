@@ -26,7 +26,6 @@ Duration: 60 minutes
 1. Copy the motorbike tutorial into your home directory
 
    ```bash
-   cd /anfhome/clusteradmin
    cp -r $WM_PROJECT_DIR/tutorials/incompressible/simpleFoam/motorBike .
    ```
 
@@ -113,7 +112,6 @@ Here we ask for 2 node from the node array **hb120v2** using 120 cores on each, 
 6. Install the **ParaView** viewer:
 
    ```bash
-   cd /anfhome/clusteradmin
    wget "https://www.paraview.org/paraview-downloads/download.php?submit=Download&version=v5.10&type=binary&os=Linux&downloadFile=ParaView-5.10.1-MPI-Linux-Python3.9-x86_64.tar.gz" -O ParaView-5.10.1-MPI-Linux-Python3.9-x86_64.tar.gz
    tar xvf ParaView-5.10.1-MPI-Linux-Python3.9-x86_64.tar.gz
    ```
