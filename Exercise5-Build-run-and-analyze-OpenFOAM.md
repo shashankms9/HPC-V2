@@ -105,9 +105,9 @@ Here we ask for 2 node from the node array **hb120v2** using 120 cores on each, 
    
    > **Note**: This will open another browser tab displaying the Linux Desktop session.
 
-5. Within the Linux Desktop session, Click on **Applications** and open a **Terminal Emulator**.
+5. Open a **Terminal Emulator** in the Linux Desktop.
 
-      ![alt](image/EX2-Task5-Step18.png)
+      ![alt](image/EX3-Task5-Step18a.png)
 
 6. Install the **ParaView** viewer:
 
@@ -123,9 +123,19 @@ Here we ask for 2 node from the node array **hb120v2** using 120 cores on each, 
    vglrun ./ParaView-5.10.1-MPI-Linux-Python3.9-x86_64/bin/paraview
    ```
 
-8. Open the model, Within **ParaView** open the case `motorBike/case.foam`
+8. Open the model, Within **ParaView** open the case `motorBike/case.foam`. From the tool bar click on **open file**.
 
-9. When the model is loaded, you can view the geometry like this:
+   ![alt](image/EX6-Task4-task2a.png)
+
+9. Click on **motorBike**.
+
+   ![alt](image/EX5-Task4-task8b.png)
+
+10. Select **case.foam** and click on **OK**. 
+
+      ![alt](image/EX5-Task4-task8c.png)
+
+11. When the model is loaded, you can view the geometry like this:
    - In the bottom left pane, in the "Mesh Regions" list, unselect "internalMesh" and select "group/motorBikeGroup".
    - Click "Apply" above the list.
    - You should now see the model geometry, and you can move/rotate/zoom using the mouse.
@@ -133,11 +143,11 @@ Here we ask for 2 node from the node array **hb120v2** using 120 cores on each, 
       ![alt](image/EX5-Task4-step8a.png)
 
 
-10. Next, you can visualize the simulation results.
+12. Next, you can visualize the simulation results.
 
       - Click the "Play" button on the toolbar at the top of the window to advance to the end of the simulation.
       - On the Active Variables Control toolbar you will find a drop down box where you can select variables. For example, select "p" for pressure.
 
         ![alt](image/EX5-Task4-step8b.png)
 
-11. Click the **Next** button located in the bottom right corner of this lab guide to continue with the next exercise.   
+13. Click the **Next** button located in the bottom right corner of this lab guide to continue with the next exercise.   

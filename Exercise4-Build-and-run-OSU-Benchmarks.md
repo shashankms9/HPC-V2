@@ -82,6 +82,6 @@ This will download the source packages and build them in your environment.
 
 4. Review the results of the jobs in files names **LAT.o??** and **BW.o??** at the root of the home directory
 
-    ![alt](image/EX4-Task3-step4.png)
+    ![alt](image/EX4-Task3-Step4b.png)
 
  5. Click the **Next** button located in the bottom right corner of this lab guide to continue with the next exercise.   

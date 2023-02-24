@@ -68,7 +68,11 @@ In this exercise, you will review the main features of the Azure HPC OnDemand Pl
 
 4. Switch to the browser tab with the **Azure CycleCloud for Azure HPC On-Demand Platform** page. After some time (less than a minute), a new **execute** instance is created.
 
+      ![alt](image/EX2-Task2-Step4.png)
+
 5. Review the newly created job's progress, including the new VM creation.
+
+      ![alt](image/EX2-Task2-Step5.png)
 
 ### Task 3: Hello World job
 
@@ -78,7 +82,7 @@ In this exercise, you will review the main features of the Azure HPC OnDemand Pl
 
 2. On the **Jobs** page, select **+ New job**, and from the drop-down menu, select **From Default Template**.
 
-      ![alt](image/EX2-Task3-Step2.png)
+      ![alt](image/EX2-Task3-Step2a.png)
 
    > **Note**: This will automatically create a job named **(default) Sample Sequential Job** that targets the **execute** CycleCloud array. To identify the content of the job script, ensure that the newly created job is selected, and then review the **Script contents** pane.
 
@@ -125,6 +129,8 @@ In this exercise, you will review the main features of the Azure HPC OnDemand Pl
       ![alt](image/EX2-Task3-Step12.png)
 
 13. Navigate to the **Azure CycleCloud for Azure HPC On-Demand Platform** portal, and then monitor the progress of node provisioning.
+
+      ![alt](image/EX2-Task3-Step13.png)
 
       > **Note**: Wait until the status of nodes changes to **Ready**. This should take about 5 minutes.
 
@@ -307,7 +313,7 @@ In this exercise, you will review the main features of the Azure HPC OnDemand Pl
 
 16. On the session with hosts named `viz-1`, use the **Delete** button to delete one of the **Linux Desktop** session by selecting **Confirm** when prompted.
 
-      ![alt](image/EX2-Task5-Step16.png)
+      ![alt](image/EX3-Task5-Step16a.png)
 
 17. On the session with hosts named `viz3d-1`, adjust **Compression** and **Image quality** according to your preferences, and then select **Launch Linux Desktop**.
 
@@ -315,9 +321,9 @@ In this exercise, you will review the main features of the Azure HPC OnDemand Pl
 
       > **Note**: This will open another browser tab displaying the Linux Desktop VNC session.
 
-18. Click on **Applications** and open a **Terminal Emulator**. 
+18. Open a **Terminal Emulator** in the Linux Desktop. 
 
-      ![alt](image/EX2-Task5-Step18.png)
+      ![alt](image/EX3-Task5-Step18a.png)
 
 19. Once the teminal is open, run the below command to validate that GPU is enabled
 
@@ -351,6 +357,8 @@ In this exercise, you will review the main features of the Azure HPC OnDemand Pl
       ![alt](image/EX2-Task5-Step23.png)
 
 23. Start a new terminal and launch `nvidia-smi` to check the GPU usage which should be about **35%**.
+
+      ![alt](image/EX3-Task5-Step24.png)
 
       > **Note**: The `vglrun` command can be called for all applications which use Opengl to offload calls to the GPU.
 

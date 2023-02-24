@@ -14,7 +14,7 @@ In this exercise you will run and analyze the DrivAer-Fastback CFD simulation wi
 2. Copy the DrivAer-Fastback tutorial to your home directory:
 
    ```bash
-   cp -r OpenFOAM-9/tutorials/incompressible/simpleFoam/drivaerFastback .
+   cp -r OpenFOAM-9/tutorials/incompressible/simpleFoam/drivaerFastback ~
    ```
 
 3. Apply the following changes to the default tutorial:
@@ -27,7 +27,7 @@ In this exercise you will run and analyze the DrivAer-Fastback CFD simulation wi
       Here are the commands:
 
       ```bash
-      cd drivaerFastback
+      cd ~/drivaerFastback
       sed -i '/RunFunctions/a source <(declare -f runParallel | sed "s/mpirun/mpirun \\\$FOAM_MPIRUN_FLAGS/g")' Allrun
       sed -i 's#/bin/sh#/bin/bash#g' Allrun
       gunzip constant/geometry/*
@@ -55,7 +55,7 @@ In this exercise you will run and analyze the DrivAer-Fastback CFD simulation wi
 2. Submit the OpenFOAM batch job, requesting our job to be exclusively allocated to two HB120rs_v2 nodes from the node array `hb120v2`:
 
    ```bash
-   cd drivaerFastback
+   cd ~/drivaerFastback
    qsub -l select=2:slot_type=hb120v2:ncpus=120:mpiprocs=120,place=scatter:excl submit.sh
    ```
 
@@ -81,9 +81,9 @@ In this exercise you will run and analyze the DrivAer-Fastback CFD simulation wi
 
    > **Note**: This will open another browser tab displaying the Linux Desktop session.
 
-5. Within the Linux Desktop session, Click on **Applications** and open a **Terminal Emulator**.
+5. Open a **Terminal Emulator** in the Linux Desktop.
 
-      ![alt](image/EX2-Task5-Step18.png)
+      ![alt](image/EX3-Task5-Step18a.png)
 
 6. Install the **ParaView** viewer:
 
@@ -97,13 +97,23 @@ In this exercise you will run and analyze the DrivAer-Fastback CFD simulation wi
 1. Create a case file and launch ParaView:
 
    ```bash
-   touch  drivaerFastback/case.foam
+   touch ~/drivaerFastback/case.foam
    vglrun ./ParaView-5.10.1-MPI-Linux-Python3.9-x86_64/bin/paraview
    ```
 
-2. Within **ParaView** open the case `/drivaerFastback/case.foam`
+2. Within **ParaView** open the case `/drivaerFastback/case.foam`. From the tool bar click on **open file**.
 
-3. When the model is loaded, you can load the car geometry as follows:
+   ![alt](image/EX6-Task4-task2a.png)
+
+3. Click on **drivaerFastback**.
+
+   ![alt](image/EX6-Task4-task2b.png)
+
+4. Select **case.foam** and click on **OK**.  
+
+   ![alt](image/EX6-Task4-task2c.png)
+
+5. When the model is loaded, you can load the car geometry as follows:
    - In the bottom left pane, in the "Mesh Regions" list, unselect "internalMesh" and select the    following fields:
       - `patch/body`
       - `patch/frontWheels`
@@ -111,8 +121,18 @@ In this exercise you will run and analyze the DrivAer-Fastback CFD simulation wi
       - `patch/inlet`
       - `patch/rearWheels`
    - Click "Apply" above the list
+
+      ![alt](image/EX6-Task4-task3a.png)
+
    - You should now see the model geometry, and you can move/rotate/zoom using the mouse
 
-4. To visualize the simulation results, click the "Play" button on the toolbar at the top of the window to advance to the end of the simulation.
+      ![alt](image/EX6-Task4-task3b.png)
 
-5. On the Active Variables Control toolbar you will find a drop down box where you can select variables. For example, select "p" for pressure.
+6. To visualize the simulation results, click the "Play" button on the toolbar at the top of the window to advance to the end of the simulation.
+
+   ![alt](image/EX6-Task4-task3c.png)
+
+7. On the Active Variables Control toolbar you will find a drop down box where you can select variables. For example, select "p" for pressure.
+
+   ![alt](image/EX6-Task4-task3d.png)
+
