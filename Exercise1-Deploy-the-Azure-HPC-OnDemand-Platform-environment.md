@@ -31,6 +31,7 @@ In this exercise, you will use Azure Cloud Shell to set up an `az-hop` environme
    ```bash
    git clone https://github.com/Azure/az-hop.git -b v1.0.29
    ```
+   
     ![alt](image/EX1-Task2-Step1.png)
 
 ### Task 3 : Prepare the configuration file used to build the `az-hop` environment
@@ -72,7 +73,7 @@ In this task, you will prepare the `build.yml` file used by the deploy helper sc
 
     ![alt](image/EX1-Task3-Step4.png)
 
-5. Then press **_ESC_**, write **_:wq_** to save your changes and close the file. Once the file is saved run `cd ..` to change the directory.
+6. Then press **_ESC_**, write **_:wq_** to save your changes and close the file. Once the file is saved run `cd ..` to change the directory.
     
     >**Note**: If **_ESC_** doesn't work press `ctrl+[` and then write **_:wq_** to save your changes and close the file.     
     
