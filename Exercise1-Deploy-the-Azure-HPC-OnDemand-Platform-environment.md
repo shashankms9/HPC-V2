@@ -64,7 +64,7 @@ In this task, you will prepare the `build.yml` file used by the deploy helper sc
     vi install.sh
     ```
 
-5. Change line 14 of the `install.sh` script from `git clone --recursive https://github.com/Azure/az-hop.git` to below line.
+5. Change the `install.sh` script from `git clone --recursive https://github.com/Azure/az-hop.git` to below line. To edit the file press `i`.
 
     ```bash
     git clone --recursive https://github.com/Azure/az-hop.git -b v1.0.29
@@ -72,7 +72,7 @@ In this task, you will prepare the `build.yml` file used by the deploy helper sc
 
     ![alt](image/EX1-Task3-Step4.png)
 
-5. Then press **_ESC_**, write **_:wq_** to save your changes and close the file.
+5. Then press **_ESC_**, write **_:wq_** to save your changes and close the file. Once the file is saved run `cd ..` to change the directory.
     
     >**Note**: If **_ESC_** doesn't work press `ctrl+[` and then write **_:wq_** to save your changes and close the file.     
     
