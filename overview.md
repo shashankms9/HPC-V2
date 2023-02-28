@@ -29,5 +29,8 @@ Azure HPC On-Demand Platform (az-hop), provides the end-to-end deployment mechan
 
   - Remote Visualization with [noVNC](https://novnc.com/info.html) and GPU acceleration with [VirtualGL](https://www.virtualgl.org/).
 
+## Solution architecture
+
+Below is a diagram of the solution architecture you will build in this lab. Please study this carefully to understand the whole of the solution as you are working on the various components.
 
   ![alt](image/azhop_architecture.png)
